@@ -22,9 +22,10 @@ interface TrackingResultProps {
 export function TrackingResult({ pedido, onReset }: TrackingResultProps) {
   const steps = getTrackingSteps(pedido)
   const daysSincePurchase = calculateDaysSincePurchase(pedido.data_compra)
-  const currentStepIndex = getCurrentStepIndex(daysSincePurchase)
+  const currentStepIndex = getCurrentStepIndex(daysSincePurchase, pedido.status)
   const estimatedDelivery = getEstimatedDeliveryDate(pedido.data_compra)
-  const isDelivered = daysSincePurchase >= 15
+  // Considera entregue se o status do banco for 'entregue' OU se passou 15+ dias
+  const isDelivered = pedido.status?.toLowerCase() === 'entregue' || daysSincePurchase >= 15
   
   return (
     <div className="w-full max-w-2xl space-y-6">

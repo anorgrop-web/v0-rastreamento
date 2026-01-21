@@ -20,8 +20,6 @@ export interface TrackingStep {
 
 export type TrackingStatus = 
   | 'pagamento_aprovado'
-  | 'separacao'
-  | 'nota_fiscal'
+  | 'pedido_enviado'
   | 'em_transito'
-  | 'base_local'
-  | 'entrega'
+  | 'entregue'

@@ -3,13 +3,15 @@
 import React from "react"
 
 import { 
-  CreditCard, 
+  CheckCircle, 
   Package, 
-  FileText, 
   Truck, 
-  Warehouse, 
-  PackageCheck,
-  Check
+  Home,
+  Check,
+  CreditCard,
+  FileText,
+  Warehouse,
+  PackageCheck
 } from 'lucide-react'
 import type { TrackingStep } from '@/lib/types'
 import { cn } from '@/lib/utils'
@@ -20,12 +22,10 @@ interface TrackingTimelineProps {
 }
 
 const iconMap: Record<string, React.ElementType> = {
-  'credit-card': CreditCard,
+  'check-circle': CheckCircle,
   'package': Package,
-  'file-text': FileText,
   'truck': Truck,
-  'warehouse': Warehouse,
-  'package-check': PackageCheck,
+  'home': Home,
 }
 
 export function TrackingTimeline({ steps, currentStepIndex }: TrackingTimelineProps) {
