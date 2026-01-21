@@ -1,12 +1,14 @@
 'use client'
 
 import { useState } from 'react'
-import { ChefHat, Package, Shield, Truck } from 'lucide-react'
+import Image from 'next/image'
+import { Package, Shield, Truck } from 'lucide-react'
 import { Header } from '@/components/header'
 import { TrackingSearchForm } from '@/components/tracking-search-form'
 import { TrackingResult } from '@/components/tracking-result'
 import { Alert, AlertDescription } from '@/components/ui/alert'
 import type { Pedido } from '@/lib/types'
+import { ChefHat } from 'lucide-react' // Import ChefHat
 
 export default function TrackingPage() {
   const [pedido, setPedido] = useState<Pedido | null>(null)
@@ -39,9 +41,13 @@ export default function TrackingPage() {
           {/* Hero Section */}
           {!pedido && (
             <div className="text-center mb-10 max-w-2xl">
-              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-foreground text-background mb-6">
-                <ChefHat className="h-8 w-8" />
-              </div>
+              <Image
+                src="https://mk6n6kinhajxg1fp.public.blob.vercel-storage.com/kat/logo_titanchef%201.png"
+                alt="TitanChef Logo"
+                width={80}
+                height={80}
+                className="mx-auto mb-6"
+              />
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-balance">
                 Rastreie seu Pedido
               </h1>
