@@ -9,7 +9,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Rastreie seu Pedido | Jardim da Cida',
+  title: 'Order tracking system',
   description: 'Acompanhe a entrega das suas plantas e flores do Jardim da Cida em tempo real. Rastreamento completo do pedido.',
   generator: 'v0.app',
   icons: {
