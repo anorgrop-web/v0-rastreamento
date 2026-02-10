@@ -5,8 +5,8 @@ import { Card, CardContent } from '@/components/ui/card'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contato | TitanChef',
-  description: 'Entre em contato com a TitanChef. Responderemos em até 24 horas úteis.',
+  title: 'Contato | Jardim da Cida',
+  description: 'Entre em contato com o Jardim da Cida. Responderemos em até 24 horas úteis.',
 }
 
 export default function ContatoPage() {
@@ -32,16 +32,16 @@ export default function ContatoPage() {
           <div className="grid gap-6 md:grid-cols-2">
             <Card>
               <CardContent className="flex items-start gap-4 p-6">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-emerald-100">
-                  <Mail className="h-6 w-6 text-emerald-600" />
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10">
+                  <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h2 className="mb-1 font-semibold">E-mail</h2>
                   <a 
-                    href="mailto:info@titanchefcut.com" 
-                    className="text-emerald-600 hover:text-emerald-700 transition-colors"
+                    href="mailto:info@jardimdacida.com" 
+                    className="text-primary hover:text-primary/80 transition-colors"
                   >
-                    info@titanchefcut.com
+                    info@jardimdacida.com
                   </a>
                   <p className="mt-2 text-sm text-muted-foreground">
                     Responderemos em até 24 horas úteis.
@@ -52,8 +52,8 @@ export default function ContatoPage() {
 
             <Card>
               <CardContent className="flex items-start gap-4 p-6">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-emerald-100">
-                  <Clock className="h-6 w-6 text-emerald-600" />
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10">
+                  <Clock className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h2 className="mb-1 font-semibold">Horário de Atendimento</h2>

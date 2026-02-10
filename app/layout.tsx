@@ -9,9 +9,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Rastreie seu Pedido | TitanChef',
-  description: 'Acompanhe a entrega dos seus utensílios de cozinha TitanChef em tempo real. Rastreamento completo do pedido.',
-  generator: 'v0.app',
+  title: 'Order tracking system',
+  description: 'Rastreamento completo do pedido.',
+  generator: 'me',
   icons: {
     icon: [
       {
