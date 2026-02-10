@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidade | TitanChef',
+  title: 'Política de Privacidade | Jardim da Cida',
   description: 'Conheça nossa política de privacidade e como protegemos seus dados.',
 }
 
@@ -54,10 +54,10 @@ export default function PoliticaDePrivacidadePage() {
                 Para solicitar alterações, correções ou exclusão dos seus dados pessoais, 
                 entre em contato conosco pelo e-mail{' '}
                 <a 
-                  href="mailto:info@titanchefcut.com" 
-                  className="text-emerald-600 hover:text-emerald-700 transition-colors"
+                  href="mailto:info@jardimdacida.com" 
+                  className="text-primary hover:text-primary/80 transition-colors"
                 >
-                  info@titanchefcut.com
+                  info@jardimdacida.com
                 </a>
                 .
               </p>

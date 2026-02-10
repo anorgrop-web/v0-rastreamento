@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Termos de Uso | TitanChef',
-  description: 'Leia os termos de uso do site TitanChef. Informações sobre envio, prazos e legislação.',
+  title: 'Termos de Uso | Jardim da Cida',
+  description: 'Leia os termos de uso do site Jardim da Cida. Informações sobre envio, prazos e legislação.',
 }
 
 export default function TermosDeUsoPage() {
@@ -52,15 +52,15 @@ export default function TermosDeUsoPage() {
               </p>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center gap-3">
-                  <span className="h-2 w-2 rounded-full bg-emerald-500" />
+                  <span className="h-2 w-2 rounded-full bg-primary" />
                   <span><strong>Região Sudeste:</strong> 8 a 12 dias úteis</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <span className="h-2 w-2 rounded-full bg-emerald-500" />
+                  <span className="h-2 w-2 rounded-full bg-primary" />
                   <span><strong>Região Sul:</strong> 10 a 14 dias úteis</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <span className="h-2 w-2 rounded-full bg-emerald-500" />
+                  <span className="h-2 w-2 rounded-full bg-primary" />
                   <span><strong>Demais regiões:</strong> 15 a 18 dias úteis</span>
                 </li>
               </ul>

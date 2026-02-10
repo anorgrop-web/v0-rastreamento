@@ -6,8 +6,8 @@ export function Footer() {
       <div className="container mx-auto px-4 py-10">
         <div className="flex flex-col items-center gap-6">
           {/* Logo */}
-          <Link href="/" className="text-foreground hover:text-foreground/80 transition-colors">
-            <span className="text-lg font-bold tracking-tight">TitanChef</span>
+          <Link href="/" className="text-primary hover:text-primary/80 transition-colors">
+            <span className="text-lg font-bold tracking-tight">Jardim da Cida</span>
           </Link>
 
           {/* Navigation Links */}
@@ -44,7 +44,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="text-center text-xs text-muted-foreground/70 max-w-md">
             <p>
-              Titanchef é uma marca operada por Anor Commerce LLC.
+              Jardim da Cida é uma marca operada por Anor Commerce LLC.
               <br />
               Endereço: 1209 Mountain Road Place Northeast, Albuquerque, New Mexico, 87110, USA.
             </p>
@@ -52,7 +52,7 @@ export function Footer() {
 
           {/* Copyright */}
           <p className="text-xs text-muted-foreground/60">
-            &copy; 2025 Titanchef. Todos os direitos reservados.
+            &copy; 2025 Jardim da Cida. Todos os direitos reservados.
           </p>
         </div>
       </div>

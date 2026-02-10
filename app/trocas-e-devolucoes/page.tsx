@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Trocas e Devoluções | TitanChef',
-  description: 'Conheça nossa política de trocas e devoluções. Garantia de 90 dias contra defeitos.',
+  title: 'Trocas e Devoluções | Jardim da Cida',
+  description: 'Conheça nossa política de trocas e devoluções. Garantia de qualidade para suas plantas.',
 }
 
 export default function TrocasEDevolucoesPage() {
@@ -30,11 +30,11 @@ export default function TrocasEDevolucoesPage() {
           {/* Content */}
           <div className="space-y-8">
             <section>
-              <h2 className="mb-3 text-xl font-semibold">1. Garantia de 90 Dias</h2>
+              <h2 className="mb-3 text-xl font-semibold">1. Garantia de Qualidade</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Todos os produtos TitanChef possuem garantia de 90 dias contra defeitos de 
-                fabricação. Caso identifique algum problema com seu produto dentro deste 
-                período, entre em contato conosco para solicitar a troca.
+                Todas as plantas do Jardim da Cida possuem garantia de qualidade. 
+                Caso sua planta chegue com problemas ou não esteja em boas condições, 
+                entre em contato conosco dentro de 7 dias após o recebimento para solicitar a troca.
               </p>
             </section>
 
@@ -66,14 +66,14 @@ export default function TrocasEDevolucoesPage() {
               </p>
             </section>
 
-            <section className="rounded-lg bg-emerald-50 p-6">
-              <p className="text-sm text-emerald-800">
+            <section className="rounded-lg bg-primary/10 p-6">
+              <p className="text-sm text-primary">
                 <strong>Precisa de ajuda?</strong> Entre em contato pelo e-mail{' '}
                 <a 
-                  href="mailto:info@titanchefcut.com" 
+                  href="mailto:info@jardimdacida.com" 
                   className="underline hover:no-underline"
                 >
-                  info@titanchefcut.com
+                  info@jardimdacida.com
                 </a>
                 {' '}e nossa equipe terá prazer em auxiliá-lo.
               </p>

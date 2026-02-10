@@ -41,18 +41,12 @@ export default function TrackingPage() {
           {/* Hero Section */}
           {!pedido && (
             <div className="text-center mb-10 max-w-2xl">
-              <Image
-                src="https://mk6n6kinhajxg1fp.public.blob.vercel-storage.com/kat/logo_titanchef%201.png"
-                alt="TitanChef Logo"
-                width={80}
-                height={80}
-                className="mx-auto mb-6"
-              />
-              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-balance">
+              <div className="mx-auto mb-6 text-6xl">🌸</div>
+              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-balance text-primary">
                 Rastreie seu Pedido
               </h1>
               <p className="text-muted-foreground text-lg">
-                Acompanhe a entrega dos seus utensílios de cozinha TitanChef em tempo real
+                Acompanhe a entrega das suas plantas e flores do Jardim da Cida em tempo real
               </p>
             </div>
           )}
@@ -76,17 +70,17 @@ export default function TrackingPage() {
           {!pedido && (
             <div className="mt-16 grid gap-8 sm:grid-cols-3 max-w-4xl">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-emerald-100 text-emerald-600 mb-4">
+                <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-primary/10 text-primary mb-4">
                   <Package className="h-6 w-6" />
                 </div>
-                <h3 className="font-semibold mb-2">Embalagem Premium</h3>
+                <h3 className="font-semibold mb-2">Embalagem com Cuidado</h3>
                 <p className="text-sm text-muted-foreground">
-                  Seus produtos são embalados com cuidado especial para chegar perfeitos
+                  Suas plantas são embaladas com proteção especial para chegar saudáveis
                 </p>
               </div>
               
               <div className="text-center">
-                <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-emerald-100 text-emerald-600 mb-4">
+                <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-primary/10 text-primary mb-4">
                   <Truck className="h-6 w-6" />
                 </div>
                 <h3 className="font-semibold mb-2">Entrega Rastreada</h3>
@@ -96,12 +90,12 @@ export default function TrackingPage() {
               </div>
               
               <div className="text-center">
-                <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-emerald-100 text-emerald-600 mb-4">
+                <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-primary/10 text-primary mb-4">
                   <Shield className="h-6 w-6" />
                 </div>
-                <h3 className="font-semibold mb-2">Garantia TitanChef</h3>
+                <h3 className="font-semibold mb-2">Garantia de Qualidade</h3>
                 <p className="text-sm text-muted-foreground">
-                  Todos os produtos possuem garantia de qualidade e satisfação
+                  Todas as plantas possuem garantia de qualidade e satisfação
                 </p>
               </div>
             </div>
@@ -113,7 +107,7 @@ export default function TrackingPage() {
       <footer className="border-t mt-auto">
         <div className="container mx-auto px-4 py-6">
           <p className="text-center text-sm text-muted-foreground">
-            TitanChef - Utensílios de Cozinha Premium
+            Jardim da Cida - Plantas e Flores com Carinho
           </p>
         </div>
       </footer>
